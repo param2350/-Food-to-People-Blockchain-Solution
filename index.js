@@ -10,13 +10,11 @@ const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 
 //GLOBAL VARS
-//const account = '0x24a7f0A7d52ee1e14Fd9B65210737eD034231f7c'
-//const private_key = '385736EBA8F35D7C8EF9BE2F48AC2E7C4A65073A40081E0F56B70AB5BBAC98E7';
-const account='0x7031CaD030F7D41b751ee7b199cA10ca72F184D1';
-const private_key = '86ABC2B8A20DC644B68D6BCC198D57177D1D0B5CF68FCC2DBAD10FBB114050CC';
-const url = 'mongodb+srv://onebond:onebond@cluster0-uqs2c.mongodb.net/test?retryWrites=true';
+
+const private_key = '';
+const url = '';
 //FOLLOWING URL IS USED ONLY FOR LOGIN FUNCTIONALITY AND RETAILER ADDRESS
-const urlLogin = "mongodb+srv://onebond:onebond@cluster0-lv3ox.mongodb.net/test?retryWrites=true&w=majority";
+const urlLogin = "";
 
 
 var bodyParser  = require("body-parser");
